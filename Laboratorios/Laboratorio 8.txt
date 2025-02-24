@@ -1,0 +1,9 @@
+Laboratorio 8 - Pair programming
+- Frida Alexia Arcadia Luna, A01711615
+- Lorain Valeria González Rivas, A01707279
+
+Enlaces a commits hechos en pareja, se encuentran en el repositorio de mi compañera, Frida Arcadia: 
+1. https://github.com/frida-al/not_a_repo/commit/01ac7169a5cd49691655bf8188d6964ec9e0fd6d
+2. https://github.com/frida-al/not_a_repo/commit/477fe0a63792e3a761e850bbd2679afd1b1f1f7e
+3. https://github.com/frida-al/not_a_repo/commit/5012abb39384ada0dab26868294306538634d2ae
+4. https://github.com/frida-al/not_a_repo/commit/dfa8dedfdb1ade371ef612ef11daa8d96a1b8e15
