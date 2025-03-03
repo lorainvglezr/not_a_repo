@@ -1,28 +1,58 @@
 body {
-    background-image: url("https://images.squarespace-cdn.com/content/v1/5a39684364b05fa8570b6896/60e446f9-b4f9-4710-b053-beaaf1418a17/DannyOcean-07junio24-OCESA-FotoLuluUrdapilleta-008.jpg");
+    background-color: #D5ECF0;
+    color: white;
+    line-height: 1.5;
+}
+
+img { 
+    background-color: #D5ECF0; 
+    border: 1px solid #D5ECF0;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 10px;
+    display: inline-block;
+}
+
+a {
+    color: #7FC6D7;
 }
 
 #wrapper {
+    border: solid #8EAAC3;
+    border-radius: 20px;
+    padding: 20px;
     width: 1000px;
     margin: 0 auto;
-    background-color: #e0cee0;
-    height: 1917px;
+    background-color: #0B244A;
+    height: 3840px;
 }
 
-.Datos {
-    border: 3px dashed #6656bc;
+.Artista {
+    border-top: 3px dashed #8EAAC3;
     width: 99.4%;
     height: 700px;
 }
 
-.Discografia {
-    border: 3px dashed #6656bc;
+.Datos {
+    border-top: 3px dashed #8EAAC3;
     width: 99.4%;
-    height: 370px;
+    height: 940px;
+}
+
+.Discografica {
+    border-top: 3px dashed #8EAAC3;
+    width: 99.4%;
+    height: 500px;
 }
 
 .Giras {
-    border: 3px dashed #6656bc;
+    border-top: 3px dashed #8EAAC3;
     width: 99.4%;
-    height: 514px;
+    height: 650px;
+}
+
+.Preguntas {
+    border-top: 3px dashed #8EAAC3;
+    width: 99.4%;
+    height: 920px;
 }
