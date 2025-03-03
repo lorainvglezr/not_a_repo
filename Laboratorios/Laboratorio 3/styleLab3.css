@@ -1,0 +1,28 @@
+body {
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5a39684364b05fa8570b6896/60e446f9-b4f9-4710-b053-beaaf1418a17/DannyOcean-07junio24-OCESA-FotoLuluUrdapilleta-008.jpg");
+}
+
+#wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #e0cee0;
+    height: 1917px;
+}
+
+.Datos {
+    border: 3px dashed #6656bc;
+    width: 99.4%;
+    height: 700px;
+}
+
+.Discografia {
+    border: 3px dashed #6656bc;
+    width: 99.4%;
+    height: 370px;
+}
+
+.Giras {
+    border: 3px dashed #6656bc;
+    width: 99.4%;
+    height: 514px;
+}
