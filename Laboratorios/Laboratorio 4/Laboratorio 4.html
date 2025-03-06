@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width; initial-scale=1.0">
+        <title>Fundamentos de JavaScript</title>
+        <link rel="stylesheet" type="text/css" href="styleLab4.css">
+    </head>
+    <body>
+        <header>
+            <p style="color: #7E2513; margin-bottom: 50px; font-size: small ; text-align: left; max-width: 500px;">
+                <strong>Página web elaborada por:</strong> <em> Lorain Valeria González Rivas</em>.<br>
+                <em><u>Matrícula:</u></em> A01707279.<br>
+                <em><u>Correo electrónico institucional:</u></em> A01707279@tec.mx.<br>
+                <em><u>Correo electrónico personal:</u></em> gonzalezlorain5@gmail.com.<br>
+                <br>
+                Soy alumna activa de cuarto semestre del <em>Tecnológico de Monterrey Campus Querétaro</em>. Estoy estudiando la carrera llamada <em>Ingeniería en Tecnologías Computacionales (ITC)</em>.<br>
+            </p>
+        </header>
+        <div id="wrapper">
+                <h1 style="text-align: center; font-style: italic"><em><u>LABORATORIO 4</u></em></h1>
+                <h2 style="text-align: center; font-style: italic">Fundamentos de JavaScript</h2>
+                <script src="Laboratorio 4.js"></script> 
+            <div class=" Preguntas">
+                <h2 style="text-align: center">Preguntas a responder...</h2>
+                <ol>
+                    <li><strong><em>¿Qué diferencias y semejanzas hay entre Java y JavaScript?</em></strong></li>A pesar del pensamiento contrario de la mayoría de las personas, Java y JavaScript son dos lenguajes de programación diferentes que comparten cierta parte de sus respectivos nombres. Primero que nada, Java es un lenguaje de programación orientado a objetos o multiproceso compilado que se utiliza principalmente en desarrollo de aplicaciones móviles, aplicaciones de servidor y sistemas empresariales <em>(Java Software, s. f.)</em>. Asimismo, cuando hablamos de JavaScript nos referimos a un lenguaje de programación interpretado, lo que quiere decir esto de “interpretado” es que se interpreta el código mientras se ejecuta; JavaScript se usa mayoritariamente para generar páginas interactivas que permitan el dinamismo de las mismas con el usuario. Finalmente, dejando de lado las diferencias mencionadas anteriormente, conocemos que su principal similitud se basa en la sintaxis, así como también ambos lenguajes son primordiales para el desarrollo de software moderno y que se pueda interactuar en entornos web, donde Java puede ser utilizado en el backend y JavaScript en el frontend <em>(JavaScript | MDN, s. f.)</em>.<br><br>
+                    <li><strong><em>¿Qué métodos tiene el objeto Date? (Menciona al menos 5*)</em></strong></li>El objeto “Date” en JavaScript proporciona diversos métodos para poder trabajar con fechas y horas específicas. En general, estos métodos permiten la manipulación y el correcto formateo de fechas de manera efectiva en aplicaciones web. Entre los métodos más utilizados se encuentras:
+                    <ul>
+                        <li><u><em>getDate():</em></u> Este se encarga de devolver el día del mes.</li>
+                        <li><u><em>getMonth():</em></u> Es el encargado de retornar el mes y va de un rango de 0 a 11.</li>
+                        <li><u><em>getFullYear():</em></u> Se caracteriza por proporcionar el año completo.</li>
+                        <li><u><em>getTime():</em></u> Este devuelve el tiempo en milisegundos desde el 1 de enero de 1970.</li>
+                        <li><u><em>getHours():</em></u> Se encarga de devolver la hora de la fecha en formato de 24 horas.</li>
+                    </ul>
+                    <p style="text-align: right; font-style: italic">(Date - JavaScript | MDN, 2024)</p>
+                    <br>
+                    <li><strong><em>¿Qué métodos tienen los arreglos? (Menciona al menos 5*)</em></strong></li>Cuando hablamos de arreglos en JavaScript, se sabe que estos cuenta con una alta y variada gama de métodos que simplifican su manipulación y gestión. Dichos métodos autorizan la realización de operaciones de manera eficaz y precisa en los arreglos a manipular. Algunos de los más comunes son: 
+                    <ul>
+                        <li><u><em>push()</em></u> Este método se encarga de añadir uno o más elementos al final de un arreglo.</li>
+                        <li><u><em>pop():</em></u> Básicamente lo que hace es eliminar el último elemento de un arreglo.</li>
+                        <li><u><em>shift():</em></u> Se caracteriza por eliminar el primer elemento que se encuentre dentro del arreglo.</li>
+                        <li><u><em>unshift():</em></u> Este método agrega uno o más elementos al inicio del arreglo.</li>
+                        <li><u><em>map():</em></u> Genera un nuevo arreglo con los resultados de aplicar una función a cada elemento del arreglo original.</li>
+                    </ul>
+                    <p style="text-align: right; font-style: italic">(Array - JavaScript | MDN, s. f.)</p>
+                    <br>
+                    <li><strong><em>¿Cómo se declara una variable con alcance local dentro de una función?</em></strong></li>En términos de JavaScript, para iniciar el proceso de declarar una variable con alcance local dentro de una función se utiliza la palabra reservada “let” que es aquella que permite que la variable sea accesible únicamente dentro del bloque de la función <em>(Let - JavaScript | MDN, s. f.)</em>. Sin embargo, si lo que se desea es que la variable no cambie el valor que le fue asignado al inicio, lo que se debe de utilizar es otra palabra reservada llamada “const” que es aquella que garantiza que el valor no sea modificado, pero también limita el alcance de la variable a la función <em>(Const - JavaScript | MDN, s. f.)</em>. En resumen, “let” y “const” proporcionan un control eficaz y práctico acerca del alcance y la versatilidad de las variables en el contexto de funciones.<br><br>
+                    <li><strong><em>¿Qué implicaciones tiene utilizar variables globales dentro de funciones?</em></strong></li>	Al utilizar variables globales dentro de las funciones de JavaScript, nos podemos llegar a topar con distintas y diversas implicaciones negativas. Primero que nada, esto aumenta el riesgo de llevar a cabo una sobreescritura accidental por el simple hecho de que cualquier parte del código es capaz de modificar el valor de la variable global, y esto generaría errores difíciles de rastrear <em>(Difference Between Variable Declaration Syntaxes In Javascript (Including Global Variables)?, s. f.)</em>. De igual manera, ya que las variables globales son accesibles desde cualquier parte del código, esto puede dificultar la gestión del estado de la aplicación y generar que el código persé sea menos modular y más propenso a dificultades. En última instancia, el uso excesivo o desmesurado de estas variables puede influir en el rendimiento general porque el motor de JavaScript debe de gestionar una cantidad mayor de número de referencias y accesos a estas variables, lo que puede enlentecer la ejecución del código <em>(W3Schools.com, s. f.)</em>.<br><br>
+                </ol>
+                <h2>Referencias</h2>
+                <p>
+                    <ul type="square">
+                        <li>Array - JavaScript | MDN. (s. f.). MDN Web Docs. <a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array" target="_blank">https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array</a>.</li>
+                        <li>const - JavaScript | MDN. (s. f.). MDN Web Docs. <a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/const " target="_blank">https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/const</a>.</li>
+                        <li>Date - JavaScript | MDN. (2024, 28 julio). MDN Web Docs. <a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Date" target="_blank">https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Date</a>.</li>
+                        <li>Difference between variable declaration syntaxes in Javascript (including global variables)? (s. f.). Stack Overflow. <a href="https://stackoverflow.com/questions/4862193/javascript-global-variables" target="_blank">https://stackoverflow.com/questions/4862193/javascript-global-variables</a>.</li>
+                        <li>Java Software. (s. f.). Oracle. <a href="https://www.oracle.com/java/" target="_blank">https://www.oracle.com/java/</a>.</li>
+                        <li>JavaScript | MDN. (s. f.). MDN Web Docs. <a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank">https://developer.mozilla.org/es/docs/Web/JavaScript</a>.</li>
+                        <li>let - JavaScript | MDN. (s. f.). MDN Web Docs. <a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/let" target="_blank">https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/let</a>.</li>
+                        <li>W3Schools.com. (s. f.). <a href="https://www.w3schools.com/js/js_variables.asp" target="_blank">https://www.w3schools.com/js/js_variables.asp</a>.</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+        <footer style="color: #7E2513; margin-top: 50px; font-size: small; text-align: center">
+            <p>
+                Se utilizó <strong>Visual Studio Code</strong> para elaborar esta Página Web<br>
+                <a href="https://code.visualstudio.com/" target="_blank" style="color: #A4352D"> https://code.visualstudio.com/</a>
+            </p>
+        </footer>
+    </body>
+</html>

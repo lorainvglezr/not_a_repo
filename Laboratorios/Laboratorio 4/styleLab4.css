@@ -1,0 +1,39 @@
+body {
+    background-image: url(https://i.pinimg.com/736x/e9/f2/82/e9f282a79efe6020d2a627d6e047b573.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    line-height: 1.5;
+}
+
+a {
+    color: #F7C489;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid #F7C489;
+}
+
+th, td {
+    border: 1px solid #F7C489;
+    padding: 8px;
+}
+
+#wrapper {
+    border: solid #D97A34;
+    border-radius: 20px;
+    padding: 20px;
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #AC2705;
+    min-height: 1800px;
+}
+
+.Preguntas {
+    border-top: 3px dotted #D97A34;
+    border-bottom: 2px;
+    width: 99.4%;
+    height: 1620px;
+}
